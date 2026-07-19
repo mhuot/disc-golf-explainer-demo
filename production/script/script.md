@@ -30,7 +30,7 @@ Scoring stays simple: count every throw. Most holes are par three, and the
 fewest total throws across nine or eighteen holes wins.
 
 ## s7_recap (~19 words)
-That's disc golf. Tee, lie, basket — count the throws. Most players start
-with just a putter and a mid range.
+That's disc golf. Tee, lie, basket — count the throws. Disc golf: a good 
+walk perfected.
 
 Total ≈ 164 words ≈ 64 s narration at 2.55 w/s.

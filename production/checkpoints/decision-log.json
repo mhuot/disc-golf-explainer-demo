@@ -1,0 +1,53 @@
+{
+  "decisions": [
+    {
+      "category": "pipeline_selection",
+      "subject": "toolchain",
+      "decision": "Kokoro TTS + HyperFrames render + source-built FFmpeg, all local",
+      "rationale": "explainer-video skill default; offline after cached setup",
+      "timestamp": "2026-07-19T00:00:00Z"
+    },
+    {
+      "category": "explainer_shape",
+      "subject": "arc",
+      "decision": "concept explainer, 7 scenes, ~60s",
+      "rationale": "teaching how a game works; hook > context > 3 steps > meaning > recap",
+      "timestamp": "2026-07-19T00:00:00Z"
+    },
+    {
+      "category": "voice_selection",
+      "subject": "narration",
+      "decision": "Kokoro af_heart, speed 1.1, one WAV per scene",
+      "rationale": "skill default voice; measured per-scene durations drive all timing",
+      "timestamp": "2026-07-19T00:00:00Z"
+    },
+    {
+      "category": "music_selection",
+      "subject": "bed",
+      "decision": "none - narration only",
+      "rationale": "concept explainer; calm pacing reads better without a bed",
+      "timestamp": "2026-07-19T00:00:00Z"
+    },
+    {
+      "category": "output_profile",
+      "subject": "master",
+      "decision": "1920x1080 30fps H.264+AAC, quality high",
+      "rationale": "skill default master profile",
+      "timestamp": "2026-07-19T00:00:00Z"
+    },
+    {
+      "category": "theme_selection",
+      "subject": "visual",
+      "decision": "design-system light tokens; title/hook, step-chip, flow-diagram, recap components",
+      "rationale": "dogfood the explainer-video-skill Claude Design system",
+      "timestamp": "2026-07-19T00:00:00Z"
+    },
+    {
+      "category": "approval_gates",
+      "subject": "signoff",
+      "decision": "demo production for the skill's own user; user is subject owner",
+      "rationale": "no external owner signoff required before sharing as demo",
+      "timestamp": "2026-07-19T00:00:00Z"
+    }
+  ]
+}

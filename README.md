@@ -5,7 +5,7 @@ the three disc types, and how scoring counts every throw. The entire video
 is source code: every scene, word, color, and timing is a small edit
 followed by a ~45-second re-render.
 
-**Watch:** [`production/renders/disc-golf-explainer-v1.mp4`](production/renders/disc-golf-explainer-v1.mp4)
+**Watch:** [`YouTube Video`](https://youtu.be/Qi3Vx8kRgMc) [`production/renders/disc-golf-explainer-v1.mp4`](production/renders/disc-golf-explainer-v1.mp4)
 
 This repo is both a demo of the
 [explainer-video-skill](https://github.com/mhuot/explainer-video-skill)
